@@ -46,8 +46,15 @@ class User6 {
 
 data class User7(val id: Int, val name: String)
 
+
 class SecondOne {
 
+    val calc: (Int, Int) -> Int = { a, b -> a + b }
+
+    fun printCalcResult(num1: Int, num2: Int, calc: (Int, Int) -> Int) {
+        val result = calc(num1, num2)
+        println(result)
+    }
 
     fun printOddOrEvenNumberText(num: Int) {
         var text = ""
