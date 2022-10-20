@@ -1,6 +1,6 @@
-package Sec1
+package com.example
 
-class Train {
+class SecondOne{
     fun printOddOrEvenNumberText(num: Int ){
         var text = ""
         if (num % 2 == 0) {
@@ -18,4 +18,9 @@ class Train {
         val text = if (num %2 == 1) "odd" else "even"
     }
 
+    fun printOddOrEvenNumberText3(num: Int ): String {
+        return if (num %2 == 1) "odd" else "even"
+    }
+
 }
+
