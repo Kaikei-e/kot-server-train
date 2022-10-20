@@ -23,7 +23,7 @@ class User6 {
     val id: Int = 1
     val name: String = "Kotlin"
 
-    override fun equals(other: Any): Boolean{
+    override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
 
