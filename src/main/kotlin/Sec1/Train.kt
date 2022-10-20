@@ -13,5 +13,9 @@ class Train {
     }
 
 
+    // Alternative and smart kotlin way
+    fun printOddOrEvenNumberText2(num: Int ){
+        val text = if (num %2 == 1) "odd" else "even"
+    }
 
 }
