@@ -1,7 +1,7 @@
 package Sec1
 
 class Train {
-    fun printOddOrEvenNumbberText(num: Int ){
+    fun printOddOrEvenNumberText(num: Int ){
         var text = ""
         if (num % 2 == 0) {
             text = "Even"
